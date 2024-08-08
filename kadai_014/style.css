@@ -1,8 +1,9 @@
-:root{
-  font-size: 20px;
+:root {
+  font-size: 20px; 
+  /* ルート要素のフォントサイズを20px */
 }
 
-body{
+body {
   font-family: "Arial", "Meiryo", sans-serif;
   text-align: center;
   font-family: sans-serif;
@@ -10,7 +11,8 @@ body{
 
 h1 {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 40px;
+  font-size: 2em; 
+  /* ルート要素のフォントサイズの2倍 (20px　* 2 = 40px) */
   letter-spacing: 1.2em;
   text-shadow: 1px 1px 2px gray;
   border-bottom: solid rgb(115, 115, 114);
@@ -20,21 +22,19 @@ h1 {
   color: skyblue;
 }
 
-.pink-text{
-  color: rgb(255, 192, 203)
+.pink-text {
+  color: rgb(255, 192, 203);
 }
 
-.decoration{
+.decoration {
   font-size: 20px;
   line-height: 1.2;
 }
 
-#basic p{
+#basic p {
   font-weight: bold;
 }
 
 p {
   font-weight: normal;
 }
-
- 
