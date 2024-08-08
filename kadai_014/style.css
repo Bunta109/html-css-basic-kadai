@@ -1,18 +1,17 @@
 :root {
   font-size: 20px; 
-  /* ルート要素のフォントサイズを20px */
+  /* ルート要素のフォントサイズを20pxに設定 */
 }
 
 body {
   font-family: "Arial", "Meiryo", sans-serif;
   text-align: center;
-  font-family: sans-serif;
 }
 
 h1 {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 2em; 
-  /* ルート要素のフォントサイズの2倍 (20px　* 2 = 40px) */
+  font-size: 40px; 
+  /* ルート要素のフォントサイズの2倍 (20px * 2 = 40px) */
   letter-spacing: 1.2em;
   text-shadow: 1px 1px 2px gray;
   border-bottom: solid rgb(115, 115, 114);
